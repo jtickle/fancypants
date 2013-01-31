@@ -33,12 +33,11 @@
                 over: function(event, ui) {
                     $this
                         .data('fancypants').tempContent = $this;
-                    $this.replaceWith($('ui').fancypants('createWidget');
+                    $this.replaceWith($('ui').fancypants('createWidget'));
                 },
                 out: function(event, ui) {
-                    $this.replaceWith
-                    $this
-                        .removeClass('fancypants-accept-container-hover');
+                    $this.replaceWith($this.data('fancypants').tempContent);
+                    $this.removeClass('fancypants-accept-container-hover');
                 },
                 drop: function(event, ui) {
                     $this

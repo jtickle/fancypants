@@ -1,0 +1,81 @@
+
+* TODO Control Flow
+
+* TODO Modules
+
+** On and off methods to register/unregister callbacks
+   
+
+** Server provides a list of modules hosted by that server
+* TODO Drop target module
+
+** TODO Module Events
+
+*** Drag-over
+
+**** Dragged-class gives you a template to render in the dom (removed on dragoout)
+*** Drop
+
+**** Dragged-class will provide a template for the dom (distinct from the drag-over template)
+
+**** Get a new instance of the module that refers to that dom element
+
+**** Module takes over
+*** On-drag-start
+**** Drop targets will show themselves
+
+* TODO Other module events
+
+** Hover over module instance show toolbar
+
+* TODO Toolbar
+
+** Delete!
+
+** Move!
+
+** Menu!
+
+** Ribbons!
+
+* TODO Undo/redo
+
+* TODO Hidden Elements
+
+* TODO Global toolbar
+** New Page
+*** Popup a form that lets you create different page types
+** Edit toggle
+
+*** On click it will indicate that you are now in edit mode (also the sidebar will appear)
+
+** Page options
+
+*** Title
+
+*** Meta tags (yay indexing)
+
+*** Theme && template
+
+*** Modules can add options
+
+*** Tabs for modules?
+
+*** URL
+** Site options
+
+*** Website name ( NAME | TITLE ) (( requires permission ))
+
+*** User management? ( permissioning )
+** User options
+
+
+* TODO Permissions
+
+* Everything is a page!
+
+* TODO Phase 2 - world dom-ination
+
+** personal webserver / portal
+
+** federation?
